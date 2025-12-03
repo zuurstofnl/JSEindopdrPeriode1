@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ziekte Identificatie App</title>
+    <link rel="stylesheet" href="./CSS/index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <script src="./JS/index.js" defer></script>
+</head>
+<body>
+    <div id="inputdiv">
+        <h1>Ziekte Identificatie App</h1>
+        <form>
+            <label for="naam">Wat is uw naam?</label>
+            <input type="text" id="naam" name="naam" required>
+            <label for="leeftijd">Wat is uw leeftijd?</label>
+            <input type="number" id="leeftijd" name="leeftijd" required>
+            <label for="symptoom1">Symptoom 1:</label>
+            <select name="symptoom1" id="symptoom1">
+                <option value=""></option>
+                <option value="hoofdpijn">Hoofdpijn</option>
+                <option value="hoesten">Hoesten</option>
+                <option value="keelpijn">Keelpijn</option>
+                <option value="loopneus">Loopneus</option>
+                <option value="duizeligheid">Duizeligheid</option>
+            </select>
+            <label for="symptoom2">Symptoom 2:</label>
+            <select name="symptoom2" id="symptoom2">
+                <option value=""></option>
+                <option value="hoofdpijn">Hoofdpijn</option>
+                <option value="hoesten">Hoesten</option>
+                <option value="keelpijn">Keelpijn</option>
+                <option value="loopneus">Loopneus</option>
+                <option value="duizeligheid">Duizeligheid</option>
+            </select>
+            <label for="symptoom3">Symptoom 3:</label>
+            <select name="symptoom3" id="symptoom3">
+                <option value=""></option>
+                <option value="hoofdpijn">Hoofdpijn</option>
+                <option value="hoesten">Hoesten</option>
+                <option value="keelpijn">Keelpijn</option>
+                <option value="loopneus">Loopneus</option>
+                <option value="duizeligheid">Duizeligheid</option>
+            <input type="button" value="Verstuur" onclick="readSymptomen()">
+        </form>
+    </div>    
+    <div id="outputdiv"></div>
+</body>
+</html>

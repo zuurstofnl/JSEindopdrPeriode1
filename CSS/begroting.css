@@ -1,0 +1,97 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Raleway', sans-serif;
+  background-color: #f4f7f9;
+  color: #333;
+  display: grid;
+  place-items: center;
+  min-height: 100vh;
+  padding: 1.5%;
+}
+
+#inputdiv {
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 8px 24px #0000002c;
+    padding: 32px 40px;
+    max-width: 600px;
+    width: 100%;
+}
+
+h1{
+    margin-bottom: 20px;
+}
+
+form {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 0.65vh;
+}
+
+label {
+    font-weight: 500;
+    font-size: 15px;
+    color: #555;
+    text-align: left;
+}
+
+p {
+    font-weight: 500;
+    font-size: 20px;
+    color: o#000000;
+    text-align: left;
+}
+
+input[type="number"] {
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    padding: 13px 16px;
+    border: 1px solid #dee2e6;
+    border-radius: 8px;
+    transition: all 0.2s ease;
+    margin-bottom: 10px;
+}
+
+input[type="number"]:focus {
+    outline: none;
+    border-color: #3792f3;
+    box-shadow: 0px 0px 4px #1231523a
+}
+
+input[type="button"] {
+    font-family: "Raleway", sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    color: #ffffff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 15px;
+    padding: 15px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+    margin-top: 8px;
+}
+
+input[type="button"]:hover {
+    background-color: #0056b3;
+}
+
+#outputdiv {
+    display: none;
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 8px 24px #0000002c;
+    padding: 32px 40px;
+    max-width: 600px;
+    width: 100%;
+    margin-top: 50px;
+}
+
+#tekort {
+    color: red;
+}

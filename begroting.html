@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>De Begroting</title>
+    <script src="./JS/begroting.js" defer></script>
+    <link rel="stylesheet" href="./CSS/begroting.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="inputdiv">
+        <h1>Rijksbegroting</h1>
+        
+        <form>
+            <label for="algemenezaken">Algemene Zaken:</label>
+            <input type="number" id="algemenezaken" name="algemenezaken" value="0">
+
+            <label for="asielenmigratie">Asiel en Migratie:</label>
+            <input type="number" id="asielenmigratie" name="asielenmigratie" value="0">
+
+            <label for="binnenlandsezaken">Binnenlandse Zaken:</label>
+            <input type="number" id="binnenlandsezaken" name="binnenlandsezaken" value="0">
+
+            <label for="buitenlandsezaken">Buitenlandse Zaken:</label>
+            <input type="number" id="buitenlandsezaken" name="buitenlandsezaken" value="0">
+
+            <label for="defensie">Defensie:</label>
+            <input type="number" id="defensie" name="defensie" value="0">
+
+            <label for="economischezaken">Economische Zaken:</label>
+            <input type="number" id="economischezaken" name="economischezaken" value="0">
+
+            <label for="financien">Financiën:</label>
+            <input type="number" id="financien" name="financien" value="0">
+
+            <label for="infraenws">Infrastructuur en Waterstaat:</label>
+            <input type="number" id="infraenws" name="infraenws" value="0">
+
+            <label for="justitienv">Justitie en Veiligheid:</label>
+            <input type="number" id="justitienv" name="justitienv" value="0">
+
+            <label for="klimaat">Klimaat en Groene Groei:</label>
+            <input type="number" id="klimaat" name="klimaat" value="0">
+
+            <label for="landbouw">Landbouw en Natuur:</label>
+            <input type="number" id="landbouw" name="landbouw" value="0">
+
+            <label for="onderwijs">Onderwijs, Cultuur en Wetenschap:</label>
+            <input type="number" id="onderwijs" name="onderwijs" value="0">
+
+            <label for="socialezaken">Sociale Zaken:</label>
+            <input type="number" id="socialezaken" name="socialezaken" value="0">
+
+            <label for="volksgezondheid">Volksgezondheid en Sport:</label>
+            <input type="number" id="volksgezondheid" name="volksgezondheid" value="0">
+
+            <label for="volkshuisvesting">Volkshuisvesting:</label>
+            <input type="number" id="volkshuisvesting" name="volkshuisvesting" value="0">
+            
+            <input type="button" value="Bereken" onclick="berekenBegroting()">
+        </form>
+    </div>
+    <div id="outputdiv"></div>
+</body>
+</html>
