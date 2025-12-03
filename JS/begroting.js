@@ -4,7 +4,7 @@ function berekenBegroting() {
     let outputdiv = document.getElementById("outputdiv");
     outputdiv.innerHTML = "";
 
-    let begrotingtotaal = 330000000000;
+    let begrotingtotaal = 300000000000;
     let ministerie1 = parseInt(document.getElementById("algemenezaken").value);
     let ministerie2 = parseInt(document.getElementById("asielenmigratie").value);
     let ministerie3 = parseInt(document.getElementById("binnenlandsezaken").value);
